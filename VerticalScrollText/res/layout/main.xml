@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<!-- Demonstrates scrolling with a ScrollView. -->   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical">
+
+    <com.demo.xsl.text.VerticalScrollTextView     
+        android:id="@+id/sampleView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarFadeDuration="2000"
+        android:isScrollContainer="true"
+        android:background="@drawable/bg"
+       />    
+
+</LinearLayout>  
+
